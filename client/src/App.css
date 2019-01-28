@@ -1,0 +1,125 @@
+.header__container {
+    height: 8rem;
+    background-color: #CCE500;
+    color: black;
+}
+
+.header__container h2{
+    margin: 0px;
+    position: relative;
+    top: 2rem;
+    padding-left: 1rem;
+}
+
+.summary__pie canvas{
+    width: 800px !important;
+    height: 400px !important;
+    padding: 0px !important;
+    position: fixed;
+    top: 12rem;
+    right: -2rem;
+}
+
+.cab__image {
+    position: absolute;
+    bottom: 0px;
+    left: 1rem;
+    width: 400px;
+}
+
+.navigate__right__icon svg {
+    height: 3rem;
+    width: 3rem;
+    color: #756e6e;
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+}
+
+.navigate__left__icon svg {
+    height: 3rem;
+    width: 3rem;
+    color: #756e6e;
+    position: absolute;
+    bottom: 25px;
+    right: 75px;
+}
+
+.frequency__graph__container {
+    position: absolute;
+    top: 10rem;
+    right: 3rem;
+    width: 45rem;
+}
+
+.total__reviews__container {
+    position: absolute;
+    top: 9rem;
+    right: 18rem;
+    color: #756e6e;
+    font-size: 1.3rem;
+}
+
+.toggle_reviews_mode__pos {
+    position: relative;  
+    top: 1rem;
+    left: 1rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.toggle_reviews_mode__neg {
+    position: relative;  
+    top: 1rem;
+    left: 3rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.toggle_reviews_mode__pos:hover, .toggle_reviews_mode__neg:hover{
+    cursor: pointer;
+}
+
+.selected {
+    background: #756e6e;
+}
+
+.toggle_reviews_mode :hover{
+    cursor: pointer;
+}
+
+.summary__list__container{
+    position: relative;
+    top: 1rem;
+}
+
+.summary__list__item {
+    top: 2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: #756e6e;
+}
+
+.header__pros__cons {
+    position: relative;
+    padding: 0.5rem;
+}
+
+.comparison__chart canvas{
+    position: relative;
+    left: 10rem;
+    width: 65rem !important;
+    height: 30rem !important;
+}
+
+.comparison__chart canvas{
+    width: 60rem !important;
+    height: 30rem !important;
+}
+
+.end__page__container {
+    text-align: center;
+    position: relative;
+    top: 15rem;
+}
+ 
